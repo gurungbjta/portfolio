@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Navbar() {
     return (
-        <div className="container pt-5">
+        <div className="container pt-3">
             <div className="text-center" id="name">BIJAYATA GURUNG</div>
             <nav className="navbar pt-4 justify-content-around">
                 <Link to="/" className="navb">

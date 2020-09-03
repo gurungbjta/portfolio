@@ -1,4 +1,11 @@
 import React from 'react'
+import Footer from './Footer'
+// import dream from '../images/dream.jpeg'
+// import today from '../images/today.jpeg'
+// import comp from '../images/comp.jpeg'
+// import faith from '../images/faith.jpeg'
+// import magic from '../images/magic.jpeg'
+import dreaming from '../images/dreaming.jpg'
 
 export default function Home() {
     return (
@@ -12,6 +19,10 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+            <div>
+                <img src={dreaming} alt="dream" style={{height: '300px', width: '500px'}} className="dream d-none d-md-inline"></img>
+            </div>
+            <Footer />
         </div>
     )
 }
