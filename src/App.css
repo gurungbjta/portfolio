@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    word-spacing: 10px;
 }
 
 :root{
@@ -14,7 +15,8 @@ body{
 
 #name{
     font-family: 'Martel Sans', sans-serif;
-    font-weight: bolder;
+    /* font-family: 'Cinzel', serif; */
+    font-weight: bold;
     font-size: 30px;
 }
 
@@ -40,11 +42,11 @@ body{
     background-color: #F9E0F8;
     /* float: left; */
     width: 500px;
-    height: 150px;
+    height: 210px;
     outline: thick solid #fafcfa;
     /* outline-color: white; */
     /* margin-left: 11rem; */
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     position: relative;
     z-index: 2;
 }
@@ -60,12 +62,96 @@ body{
 
 .dream{
     margin-left: 32rem;
-    margin-top: -2rem;
+    margin-top: -3rem;
     outline: thick solid #fafcfa;
     position: absolute;
     z-index: 1;
 }
 
-/* .footer{
+.home{
+    position: relative;
+}
 
-} */
+.center{
+    text-align: center;
+}
+
+.stickers1{
+    position: absolute;
+    top: -4rem;
+}
+
+.stickers{
+    position: absolute;
+    /* left: 10rem; */
+}
+
+#comp1{
+    margin-top: 25rem;
+}
+
+.footer{
+    /* margin-top: 14rem; */
+    position: absolute;
+    top: 30rem;
+    bottom: 0;
+}
+
+.gitIcon{
+    font-size: 3.1rem;
+    /* position: absolute; */
+    /* bottom: 0.2rem; */
+    color: black;
+}
+
+.gitIcon:hover{
+    color: #6F767D;
+}
+
+.icon{
+    /* position: absolute; */
+    font-size: 4rem;
+    color: black;
+}
+
+.icon:hover{
+    color: #6F767D;
+}
+
+.frame{
+    /* position: relative;
+    top: 0; */
+    /* z-index: 1; */
+    height: 600px;
+    width: 500px;
+    background-color: white;
+    position: relative;
+
+    /* margin-left: 20rem; */
+}
+
+.texts{
+    font-family: 'Cutive Mono', monospace;
+    /* position: absolute;
+    margin-top: -45rem;
+    left: 35rem; */
+    /* z-index: 2; */
+}
+
+.gif{
+    margin-left: 35rem;
+    margin-top: -40rem;
+}
+
+.projects{
+    line-height: 15px;
+}
+
+.projLinks{
+    color: #CA97D4;
+}
+
+.projLinks:hover{
+    color: #99CCFF;
+    text-decoration: none;
+}
