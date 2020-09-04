@@ -42,7 +42,7 @@ body{
     background-color: #F9E0F8;
     /* float: left; */
     width: 500px;
-    height: 210px;
+    height: 220px;
     outline: thick solid #fafcfa;
     /* outline-color: white; */
     /* margin-left: 11rem; */
@@ -62,7 +62,7 @@ body{
 
 .dream{
     margin-left: 32rem;
-    margin-top: -3rem;
+    margin-top: -6rem;
     outline: thick solid #fafcfa;
     position: absolute;
     z-index: 1;
@@ -83,10 +83,11 @@ body{
 
 .stickers{
     position: absolute;
+    
     /* left: 10rem; */
 }
 
-#comp1{
+.comp1{
     margin-top: 25rem;
 }
 
@@ -154,4 +155,13 @@ body{
 .projLinks:hover{
     color: #99CCFF;
     text-decoration: none;
+}
+
+.aboutLeft{
+    margin-left: 5rem;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }

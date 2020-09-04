@@ -24,7 +24,7 @@ export default function Footer() {
                 </table> */}
                 <div className="center">
                     <a className="gitIcon" href="https://github.com/gurungbjta"><VscGithub/></a>
-                    <a className="icon ml-4 mr-4 pl-4 pr-4" href="https://github.com/gurungbjta"><TiSocialFacebookCircular/></a>
+                    <a className="icon ml-4 mr-4 pl-4 pr-4" href="https://www.facebook.com/bijayata.gurung.792"><TiSocialFacebookCircular/></a>
                     <a className="icon" href="https://www.linkedin.com/in/bijayatagurung/"><TiSocialLinkedinCircular/></a>
                 </div>
             </nav>
