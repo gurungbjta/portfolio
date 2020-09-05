@@ -51,11 +51,16 @@ export default function Project() {
                     </div>
                 </div>
             </div>
-            <div className="d-none d-sm-inline">
+            {/* <div className="d-none d-md-inline">
                 <img src={work} alt="work" className="gif"/>
                 <div style={{fontSize:'7px', marginTop: '-9rem', marginLeft: '40rem'}} >gif by milktop via <a href="https://www.pinterest.com/pin/191051209171976843/" style={{color: 'black', textDecoration: 'none'}}>Pinterest</a></div>
+            </div> */}
+            <div className="d-none d-md-inline gif">
+                <img src={work} alt="work" style={{borderRadius: '5px'}}/>
+                <div style={{fontSize:'7px'}} >gif by milktop via <a href="https://www.pinterest.com/pin/191051209171976843/" style={{color: 'black', textDecoration: 'none'}}>Pinterest</a></div>
             </div>
-            
+            <br />
         </div>
+        
     )
 }

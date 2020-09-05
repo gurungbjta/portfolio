@@ -19,11 +19,11 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="dream">
-                    <img src={hello} alt="dream" style={{height: '360px', width: '490px'}} className=" d-none d-md-inline"></img>
+                <div className="dream d-none d-md-inline">
+                    <img src={hello} alt="dream" style={{height: '360px', width: '490px'}}></img>
                     <div style={{fontSize:'6px'}}>gif by giphy.com via <a href="https://www.pinterest.com/pin/493284965435222860/" style={{color: 'black', textDecoration: 'none'}}>Pinterest</a> </div>
                 </div>
-                <div className="stickers1 d-inline d-md-none ml-0 ml-sm-2 ml-md-3 ml-lg-4 ml-xl-5 pl-2 pr-2 mt-0">
+                <div className="stickers1 d-inline  ml-0 ml-sm-2 ml-md-3 ml-lg-4 ml-xl-5 pl-2 pr-2 mt-0">
                     <img src={comp} alt="comp" style={{height: '100px', width: '100px'}} className="comp1"/>
                     <img src={love} alt="love" style={{height: '100px', width: '100px'}} className="comp1"/>
                     <img src={comp} alt="comp" style={{height: '100px', width: '100px'}} className="comp1"/>

@@ -78,6 +78,7 @@ body{
 
 .comp1{
     margin-top: 25rem;
+    border-radius: 5px;
 }
 
 .footer{
@@ -116,10 +117,15 @@ body{
     font-family: 'Cutive Mono', monospace;
 }
 
-.gif{
+/* .gif{
     margin-left: 35rem;
     margin-top: -40rem;
     border-radius: 5px;
+} */
+.gif{
+    position: absolute;
+    left: 40rem;
+    top: 15em;
 }
 
 .projects{
