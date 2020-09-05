@@ -32,6 +32,10 @@ body{
     text-decoration: none;
 }
 
+.activeNav{
+    color: rgb(238, 77, 238);
+}
+
 .whiteBox{
     background-color: #F9E0F8;
     width: 500px;

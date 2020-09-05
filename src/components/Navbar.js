@@ -1,23 +1,23 @@
-import {Link} from 'react-router-dom'
 import React from 'react'
+import {NavLink} from 'react-router-dom'
 
 export default function Navbar() {
     return (
         <div className="container pt-3">
             <div className="text-center" id="name">BIJAYATA GURUNG</div>
             <nav className="navbar pt-4 justify-content-around">
-                <Link to="/" className="navb">
+                <NavLink exact to="/" className="navb" activeClassName="activeNav">
                     <div>Home</div>
-                </Link>
-                <Link to="/about" className="navb">
+                </NavLink>
+                <NavLink exact to="/about" className="navb" activeClassName="activeNav">
                     <div>About Me</div>
-                </Link>
-                <Link to="/projects" className="navb">
+                </NavLink>
+                <NavLink exact to="/projects" className="navb" activeClassName="activeNav">
                     <div>Projects</div>
-                </Link>
-                <Link to="/contact" className="navb">
+                </NavLink>
+                <NavLink exact to="/contact" className="navb" activeClassName="activeNav">
                     <div>Contact Me</div>
-                </Link>
+                </NavLink>
             </nav>
         </div>
     )
