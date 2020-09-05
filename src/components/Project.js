@@ -20,7 +20,7 @@ export default function Project() {
                         <ul>
                             <div>
                                 <a className="projLinks" href="https://github.com/gurungbjta/netflix-clone"><li>Netflix Clone</li></a>
-                                - Made a front-end clone of Netflix page using React including the Sign in and Sign up page and Membership subscription plans
+                                - Made a front-end clone of Netflix page using React including the Sign in, Sign up page and Membership subscription plans
                             </div>
                         </ul>
                         <ul>
@@ -51,10 +51,11 @@ export default function Project() {
                     </div>
                 </div>
             </div>
-            <div>
-                <img src={work} alt="work" className="gif d-none d-sm-inline"/>
+            <div className="d-none d-sm-inline">
+                <img src={work} alt="work" className="gif"/>
+                <div style={{fontSize:'7px', marginTop: '-9rem', marginLeft: '40rem'}} >gif by milktop via <a href="https://www.pinterest.com/pin/191051209171976843/" style={{color: 'black', textDecoration: 'none'}}>Pinterest</a></div>
             </div>
-
+            
         </div>
     )
 }

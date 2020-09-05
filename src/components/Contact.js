@@ -17,8 +17,9 @@ export default function Contact() {
                         </div>
                     </div>
                 </div>
-                <div>
-                    <img src={girl2} alt="girl" style={{height: '350px', width: '400px', zIndex: '2'}} className="dream d-none d-md-inline"></img>
+                <div className="dream d-none d-md-inline">
+                    <img src={girl2} alt="girl" style={{height: '350px', width: '400px', zIndex: '2'}} ></img>
+                    <div style={{fontSize:'6px'}}>image via <a href="https://www.pinterest.com/pin/162340761553110859/" style={{color: 'black', textDecoration: 'none'}}>Pinterest</a> </div>
                 </div>
                 <div className="stickers1 d-inline d-md-none ml-0 ml-sm-2 ml-md-3 ml-lg-4 ml-xl-5 pl-2 pr-2 mt-0">
                     <img src={comp} alt="comp" style={{height: '100px', width: '100px'}} className="comp1"/>

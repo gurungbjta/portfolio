@@ -9,13 +9,11 @@
 
 body{
     background: var(--lightPink) !important;
-    /* font-family: 'Raleway', sans-serif !important; */
     font-family: 'Quicksand', sans-serif !important;
 }
 
 #name{
     font-family: 'Martel Sans', sans-serif;
-    /* font-family: 'Cinzel', serif; */
     font-weight: bold;
     font-size: 30px;
 }
@@ -34,18 +32,11 @@ body{
     text-decoration: none;
 }
 
-/* .navb:active {
-  color: blue;
-} */
-
 .whiteBox{
     background-color: #F9E0F8;
-    /* float: left; */
     width: 500px;
     height: 220px;
     outline: thick solid #fafcfa;
-    /* outline-color: white; */
-    /* margin-left: 11rem; */
     margin-top: 2rem;
     position: relative;
     z-index: 2;
@@ -83,8 +74,6 @@ body{
 
 .stickers{
     position: absolute;
-    
-    /* left: 10rem; */
 }
 
 .comp1{
@@ -92,7 +81,6 @@ body{
 }
 
 .footer{
-    /* margin-top: 14rem; */
     position: absolute;
     top: 30rem;
     bottom: 0;
@@ -100,8 +88,6 @@ body{
 
 .gitIcon{
     font-size: 3.1rem;
-    /* position: absolute; */
-    /* bottom: 0.2rem; */
     color: black;
 }
 
@@ -110,7 +96,6 @@ body{
 }
 
 .icon{
-    /* position: absolute; */
     font-size: 4rem;
     color: black;
 }
@@ -120,28 +105,21 @@ body{
 }
 
 .frame{
-    /* position: relative;
-    top: 0; */
-    /* z-index: 1; */
     height: 600px;
     width: 500px;
     background-color: white;
     position: relative;
-
-    /* margin-left: 20rem; */
+    border-radius: 5px;
 }
 
 .texts{
     font-family: 'Cutive Mono', monospace;
-    /* position: absolute;
-    margin-top: -45rem;
-    left: 35rem; */
-    /* z-index: 2; */
 }
 
 .gif{
     margin-left: 35rem;
     margin-top: -40rem;
+    border-radius: 5px;
 }
 
 .projects{

@@ -1,11 +1,5 @@
 import React from 'react'
-// import dream from '../images/dream.jpeg'
-// import today from '../images/today.jpeg'
-// import comp from '../images/comp.jpeg'
-// import faith from '../images/faith.jpeg'
-// import magic from '../images/magic.jpeg'
 import Footer from './Footer'
-// import dreaming from '../images/dreaming.jpg'
 import comp from '../images/comp.jpeg'
 import love from '../images/love.jpg'
 import hello from '../images/hello.gif'
@@ -21,12 +15,13 @@ export default function Home() {
                         <div>
                         I am glad you visited. My name is Bijayata (Bjta) and I am a Computer Science Junior at San Jose State University.
                         Here, you can find my projects, my contact info and also learn a bit about me. 
-                        To see my projects go to <Link to="/projects" style={{color: 'black', textDecoration: 'none'}}>Projects</Link> or, <a id="gitClick" href="https://github.com/gurungbjta">click here</a>.
+                        To see my projects, go to <Link to="/projects" style={{color: 'black', textDecoration: 'none'}}>Projects</Link> or, <a id="gitClick" href="https://github.com/gurungbjta">click here</a>.
                         </div>
                     </div>
                 </div>
-                <div>
-                    <img src={hello} alt="dream" style={{height: '360px', width: '490px'}} className="dream d-none d-md-inline"></img>
+                <div className="dream">
+                    <img src={hello} alt="dream" style={{height: '360px', width: '490px'}} className=" d-none d-md-inline"></img>
+                    <div style={{fontSize:'6px'}}>gif by giphy.com via <a href="https://www.pinterest.com/pin/493284965435222860/" style={{color: 'black', textDecoration: 'none'}}>Pinterest</a> </div>
                 </div>
                 <div className="stickers1 d-inline d-md-none ml-0 ml-sm-2 ml-md-3 ml-lg-4 ml-xl-5 pl-2 pr-2 mt-0">
                     <img src={comp} alt="comp" style={{height: '100px', width: '100px'}} className="comp1"/>
@@ -35,10 +30,20 @@ export default function Home() {
                     <img src={love} alt="love" style={{height: '100px', width: '100px'}} className="comp1"/>
                 </div>
                 <div className="stickers d-flex d-inline ml-0 ml-sm-2 ml-md-3 ml-lg-4 ml-xl-5 pl-2 pr-2 mt-0">
-                    <img src={comp} alt="comp" style={{height: '100px', width: '100px'}} className="comp1"/>
-                    <img src={love} alt="love" style={{height: '100px', width: '100px'}} className="comp1"/>
-                    <img src={comp} alt="comp" style={{height: '100px', width: '100px'}} className="comp1"/>
-                    <img src={love} alt="love" style={{height: '100px', width: '100px'}} className="comp1"/>
+                    <div>
+                        <img src={comp} alt="comp" style={{height: '100px', width: '100px'}} className="comp1"/>
+                        <div style={{fontSize:'6px'}}>image via <a href="https://www.pinterest.com/pin/693061830136444695/" style={{color: 'black', textDecoration: 'none'}}>Pinterest</a> </div>
+                    </div>
+                    <div>
+                        <img src={love} alt="love" style={{height: '100px', width: '100px'}} className="comp1"/>
+                    </div>
+                    <div>
+                        <img src={comp} alt="comp" style={{height: '100px', width: '100px'}} className="comp1"/>
+                    </div>
+                    <div>
+                        <img src={love} alt="love" style={{height: '100px', width: '100px'}} className="comp1"/>
+                        <div style={{fontSize:'6px'}}>image via <a href="https://www.pinterest.com/pin/395331673534293070/" style={{color: 'black', textDecoration: 'none'}}>Pinterest</a> </div>
+                    </div>
                 </div>
             </div>
             <Footer />
