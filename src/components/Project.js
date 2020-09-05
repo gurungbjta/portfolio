@@ -38,13 +38,13 @@ export default function Project() {
                         <ul>
                             <div>
                                 <a className="projLinks" href="https://react-phone-store-proj.netlify.app/"><li>Phone Store</li></a>
-                                - Made and deployed a website for phones using React where users can add products to cart, remove from cart and check out through PayPal Sandbox
+                                - Made and deployed a website for phone store using React where users can add products to cart, remove from cart and check out through PayPal Sandbox
                             </div>
                         </ul>
                         <ul>
                             <div>
                                 <a className="projLinks" href="https://github.com/gurungbjta/cs151Project18"><li>Tic Tac Toe Board Game</li></a>
-                                - Using OOP concepts and Java, created a Tic-Tac-Toe game where two players can play at the same time
+                                - Using OOP design patterns and Java, created a Tic-Tac-Toe game where two players can play at the same time
                             </div>
                         </ul>
                         <div className="pl-4" style={{wordSpacing: '5px'}}>For more projects, click <a className="projLinks" href="https://github.com/gurungbjta">here</a> to go to my github.</div>

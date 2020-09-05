@@ -14,8 +14,8 @@ export default function Home() {
                         <div>Welcome to my Portfolio!</div>
                         <div>
                         I am glad you visited. My name is Bijayata (Bjta) and I am a Computer Science Junior at San Jose State University.
-                        Here, you can find my projects, my contact info and also learn a bit about me. 
-                        To see my projects, go to <Link to="/projects" style={{color: 'black', textDecoration: 'none'}}>Projects</Link> or, <a id="gitClick" href="https://github.com/gurungbjta">click here</a>.
+                        Here, you can find my projects, get to connect with me and also learn a bit about me. 
+                        To see my projects, go to <Link to="/projects" className="gitClick">Projects</Link> or, <a className="gitClick" href="https://github.com/gurungbjta">click here</a> to go to my github.
                         </div>
                     </div>
                 </div>

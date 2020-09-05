@@ -13,7 +13,7 @@ export default function Contact() {
                             If you like my work, or for any queries, please contact me on my email: bijayata.gurung@sjsu.edu
                         </div>
                         <div>
-                            You can also reach me on my mobile at (415)-608-6162. I am open to feedbacks. Thank you for visiting!
+                            You can also contact me on my Linked In <a className="gitClick" href="https://www.linkedin.com/in/bijayatagurung/" id="">(click here)</a>. I am open to feedbacks. Thank you for visiting!
                         </div>
                     </div>
                 </div>
