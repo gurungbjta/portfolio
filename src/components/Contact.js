@@ -22,10 +22,10 @@ export default function Contact() {
                     <div style={{fontSize:'6px'}}>image via <a href="https://www.pinterest.com/pin/162340761553110859/" style={{color: 'black', textDecoration: 'none'}}>Pinterest</a> </div>
                 </div>
                 <div className="stickers1 d-inline d-md-none ml-0 ml-sm-2 ml-md-3 ml-lg-4 ml-xl-5 pl-2 pr-2 mt-0">
-                    <img src={comp} alt="comp" style={{height: '100px', width: '100px'}} className="comp1"/>
-                    <img src={love} alt="love" style={{height: '100px', width: '100px'}} className="comp1"/>
-                    <img src={comp} alt="comp" style={{height: '100px', width: '100px'}} className="comp1"/>
-                    <img src={love} alt="love" style={{height: '100px', width: '100px'}} className="comp1"/>
+                    <img src={comp} alt="comp" style={{height: '100px', width: '100px'}}/>
+                    <img src={love} alt="love" style={{height: '100px', width: '100px'}}/>
+                    <img src={comp} alt="comp" style={{height: '100px', width: '100px'}}/>
+                    <img src={love} alt="love" style={{height: '100px', width: '100px'}}/>
                 </div>
             </div>
         </div>

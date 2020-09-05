@@ -24,24 +24,24 @@ export default function Home() {
                     <div style={{fontSize:'6px'}}>gif by giphy.com via <a href="https://www.pinterest.com/pin/493284965435222860/" style={{color: 'black', textDecoration: 'none'}}>Pinterest</a> </div>
                 </div>
                 <div className="stickers1 d-inline  ml-0 ml-sm-2 ml-md-3 ml-lg-4 ml-xl-5 pl-2 pr-2 mt-0">
-                    <img src={comp} alt="comp" style={{height: '100px', width: '100px'}} className="comp1"/>
-                    <img src={love} alt="love" style={{height: '100px', width: '100px'}} className="comp1"/>
-                    <img src={comp} alt="comp" style={{height: '100px', width: '100px'}} className="comp1"/>
-                    <img src={love} alt="love" style={{height: '100px', width: '100px'}} className="comp1"/>
+                    <img src={comp} alt="comp" style={{height: '100px', width: '100px'}}/>
+                    <img src={love} alt="love" style={{height: '100px', width: '100px'}}/>
+                    <img src={comp} alt="comp" style={{height: '100px', width: '100px'}}/>
+                    <img src={love} alt="love" style={{height: '100px', width: '100px'}}/>
                 </div>
                 <div className="stickers d-flex d-inline ml-0 ml-sm-2 ml-md-3 ml-lg-4 ml-xl-5 pl-2 pr-2 mt-0">
                     <div>
-                        <img src={comp} alt="comp" style={{height: '100px', width: '100px'}} className="comp1"/>
+                        <img src={comp} alt="comp" style={{height: '100px', width: '100px'}}/>
                         <div style={{fontSize:'6px'}}>image via <a href="https://www.pinterest.com/pin/693061830136444695/" style={{color: 'black', textDecoration: 'none'}}>Pinterest</a> </div>
                     </div>
                     <div>
-                        <img src={love} alt="love" style={{height: '100px', width: '100px'}} className="comp1"/>
+                        <img src={love} alt="love" style={{height: '100px', width: '100px'}}/>
                     </div>
                     <div>
-                        <img src={comp} alt="comp" style={{height: '100px', width: '100px'}} className="comp1"/>
+                        <img src={comp} alt="comp" style={{height: '100px', width: '100px'}}/>
                     </div>
                     <div>
-                        <img src={love} alt="love" style={{height: '100px', width: '100px'}} className="comp1"/>
+                        <img src={love} alt="love" style={{height: '100px', width: '100px'}}/>
                         <div style={{fontSize:'6px'}}>image via <a href="https://www.pinterest.com/pin/395331673534293070/" style={{color: 'black', textDecoration: 'none'}}>Pinterest</a> </div>
                     </div>
                 </div>

@@ -73,17 +73,21 @@ body{
 
 .stickers1{
     position: absolute;
-    top: -4rem;
+    top: 25rem;
 }
 
 .stickers{
     position: absolute;
+    /* margin-top: 50rem; */
+    border-radius: 5px;
+    top: 35rem;
+    
 }
 
-.comp1{
+/* .comp1{
     margin-top: 25rem;
     border-radius: 5px;
-}
+} */
 
 .footer{
     position: absolute;
