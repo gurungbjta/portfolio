@@ -78,16 +78,10 @@ body{
 
 .stickers{
     position: absolute;
-    /* margin-top: 50rem; */
     border-radius: 5px;
     top: 35rem;
     
 }
-
-/* .comp1{
-    margin-top: 25rem;
-    border-radius: 5px;
-} */
 
 .footer{
     position: absolute;
@@ -125,11 +119,6 @@ body{
     font-family: 'Cutive Mono', monospace;
 }
 
-/* .gif{
-    margin-left: 35rem;
-    margin-top: -40rem;
-    border-radius: 5px;
-} */
 .gif{
     position: absolute;
     left: 40rem;
