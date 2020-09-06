@@ -73,7 +73,8 @@ body{
 
 .footer{
     position: absolute;
-    top: 30rem;
+    top: 52rem;
+    /* left: 30rem; */
     bottom: 0;
 }
 

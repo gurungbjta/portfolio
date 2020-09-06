@@ -7,6 +7,7 @@ import {Link} from 'react-router-dom'
 
 export default function Home() {
     return (
+        <>
         <div className="container">
             <div className="home">
                 <div className="whiteBox ml-0 ml-sm-2 ml-md-3 ml-lg-4 ml-xl-5 pl-2 pr-2">
@@ -45,8 +46,9 @@ export default function Home() {
                         <div style={{fontSize:'6px'}}>image via <a href="https://www.pinterest.com/pin/395331673534293070/" style={{color: 'black', textDecoration: 'none'}}>Pinterest</a> </div>
                     </div>
                 </div>
-            </div>
-            <Footer />
+            </div> 
         </div>
+        <Footer />
+        </>
     )
 }
