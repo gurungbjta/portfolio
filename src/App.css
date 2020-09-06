@@ -71,6 +71,12 @@ body{
     text-align: center;
 }
 
+.footer{
+    position: absolute;
+    top: 30rem;
+    bottom: 0;
+}
+
 .stickers1{
     position: absolute;
     top: 25rem;
@@ -81,12 +87,6 @@ body{
     border-radius: 5px;
     top: 35rem;
     
-}
-
-.footer{
-    position: absolute;
-    top: 30rem;
-    bottom: 0;
 }
 
 .gitIcon{
